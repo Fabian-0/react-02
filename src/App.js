@@ -5,7 +5,7 @@ import Header from "./components/Header";
 
 function App() {
   const [location, setLocation] = useState("");
-
+  
   const handlerSearch = (locationSearch) => {
     return setLocation(locationSearch);
   };

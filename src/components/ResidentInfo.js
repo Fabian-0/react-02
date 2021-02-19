@@ -1,6 +1,7 @@
 import React from "react";
 
 function ResidentInfo({ name, image, status, origin, episodes }) {
+  
   return (
     <div className="results__residents-card">
       <img className="results__residents-img" src={image} alt={name} />

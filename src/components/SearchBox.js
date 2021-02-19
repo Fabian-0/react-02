@@ -17,7 +17,7 @@ function SearchBox({ handlerSearch }) {
 				<button
 					type="button"
 					className="search__button"
-					onClick={() => handlerSearch(location)}
+					onClick={() => handlerSearch(Date.now())}
 				>
 					Search
 				</button>
